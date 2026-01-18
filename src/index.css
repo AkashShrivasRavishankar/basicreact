@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+  margin:0;
+  font-family: "Quicksand";
+  color: #333;
+
+}
+.navbar{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1{
+  color: #4010c4cb;
+}
+.navbar .links{
+  margin-left: auto;
+}
+.navbar a{
+  margin-left:16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover{
+  color: #4010c4cb;
+
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.blog-preview{
+  padding: 10px 16px;
+  margin: 20px;
+  border-bottom: 1px solid #fafafa;
+}
+
+.blog-preview:hover{
+  box-shadow: 2px 4px 6px #333;
+  cursor: pointer;
+}
+
+.blog-list h2{
+  color: #4010c4cb;
+}
+
+.blog-details {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.blog-details h2 {
+  font-size: 2rem;
+  color: #4010c4cb;
+  margin-bottom: 10px;
+}
+
+.blog-period {
+  color: #777;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.blog-body {
+  line-height: 1.8;
+  font-size: 1.05rem;
+  white-space: pre-line;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 40px;
+  font-weight: bold;
+  color: #4010c4cb;
+}
+.navbar a.yt:hover {
+  color: red;
+}
+
+.navbar a.ln:hover {
+  color: blue;
+}
